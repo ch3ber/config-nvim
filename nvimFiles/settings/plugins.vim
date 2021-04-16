@@ -1,5 +1,4 @@
 call plug#begin('~/.config/nvim/nvimFiles/plugged')
-
 Plug 'morhetz/gruvbox'                                  "tema de entorno
 Plug 'joshdick/onedark.vim'                             "tema de entorno
 Plug 'dikiaap/minimalist'                               "tema de entorno
@@ -10,14 +9,9 @@ Plug 'vim-airline/vim-airline'                          "barra de estado persona
 Plug 'vim-airline/vim-airline-themes'                   "temas para barra de estado personalisada
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     "buscador avanzado de archivos por terminal
 Plug 'junegunn/fzf.vim'                                 "buscador avanzado de archivos por terminal
-Plug 'preservim/nerdtree'                               "buscador de archivos
-Plug 'ryanoasis/vim-devicons'                           "iconos para el buscador nerdtree
-Plug 'Xuyuanp/nerdtree-git-plugin'                      "soporte para git nerdTree
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'          "destacar iconos para nerdtree
 Plug 'francoiscabrol/ranger.vim'                        "buscador de archivos por terminal
 Plug 'rbgrouleff/bclose.vim'                            "dependencia de ranger
 Plug 'mattn/emmet-vim'                                  "auto completado de etiquetas para html y css
 Plug 'neoclide/coc.nvim', {'branch': 'release'}         "auto competado para palabras
 Plug 'sheerun/vim-polyglot'                             "soporte para codigo
-
 call plug#end()

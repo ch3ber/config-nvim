@@ -5,10 +5,6 @@ inoremap ,, <ESC>
 
 nmap <Leader>w :w<CR>
 nmap <Leader>ww :wq<CR>
-nmap <Leader>q :q<CR>
-nmap <Leader>1 :q!<CR>
-nmap <Leader>k 14k
-nmap <Leader>j 14j
 
 "adelantar entre buffers
 nmap <TAB> :bnext<CR>
