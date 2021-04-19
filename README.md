@@ -1,11 +1,11 @@
 # config-nvim
-
 My personal configuration for nvim
 
 ## Instalation
-use gitclone <code> https://github.com/chEber405/config-nvim </code> into ~/.config and rename config-nvim to nvim <code> mv config-nvim nvim </code>
+1. Use `git clone https://github.com/chEber405/config-nvim` into `~/.config/`
+1. Delete his current nvim config `rm -rf nvim`
+1. rename config-nvim to nvim `mv config-nvim nvim`
 
 ## Plugins
-Plugin manager: <a href="https://github.com/junegunn/vim-plug">vim-plug</a>
-install plugins whit <code>:PlugInstall</code>
-
+Plugin manager: [vim-plug](https://github.com/junegunn/vim-plug)
+Install plugins whit `:PlugInstall`
