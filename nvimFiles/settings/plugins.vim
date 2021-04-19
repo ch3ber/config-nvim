@@ -1,9 +1,7 @@
 call plug#begin('~/.config/nvim/nvimFiles/plugged')
-Plug 'morhetz/gruvbox'                                  "tema de entorno
-Plug 'joshdick/onedark.vim'                             "tema de entorno
-Plug 'dikiaap/minimalist'                               "tema de entorno
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }    "tema de entorno
 Plug 'sainnhe/gruvbox-material'                         "tema de entorno
+Plug 'morhetz/gruvbox'                                  "tema de entorno
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }    "tema de entorno
 Plug 'ayu-theme/ayu-vim'                                "tema de entorno
 Plug 'vim-airline/vim-airline'                          "barra de estado personalisada
 Plug 'vim-airline/vim-airline-themes'                   "temas para barra de estado personalisada
