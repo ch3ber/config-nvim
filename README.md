@@ -16,4 +16,4 @@ Install the plugins whit `:PlugInstall`
 - CoC: [nodejs](https://nodejs.org/en/download/)
 
 #### Optional
-- [xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
+- enable clipboard support: [xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
