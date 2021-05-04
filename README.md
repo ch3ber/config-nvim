@@ -6,6 +6,11 @@ My personal configuration for nvim
 1. Delete his current nvim config `rm -rf nvim`
 1. rename config-nvim to nvim `mv config-nvim nvim`
 
-## Plugins
+## Plugin manager
 Plugin manager: [vim-plug](https://github.com/junegunn/vim-plug)
-Install plugins whit `:PlugInstall`
+Install the plugins whit `:PlugInstall`
+
+### Dependencies for the plugins
+- ranger:  [ranger](https://github.com/ranger/ranger)
+- fzf: [fzf](https://github.com/junegunn/fzf)
+- CoC: [nodejs](https://nodejs.org/en/download/)
