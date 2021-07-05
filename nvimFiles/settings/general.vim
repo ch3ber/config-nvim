@@ -11,23 +11,20 @@ set number                      "mostrar numero de linea
 set relativenumber              "numeros relativos
 set ruler                       "activar la regla
 set scrolloff=3                 "scrollear 3 lineas antes
-set shiftwidth=3                "identar con espacios y no caracteres
+set shiftwidth=3                "identar con 3 espacios
 set expandtab                   "identar con espacios y no tabulaciones
 set showmatch                   "mostrar parentesis correspondiente
 set signcolumn=no               "habilitar columna izquierda
-set tabstop=3                   "identar solo con 3 espacios
 set termguicolors               "habilitar colores perzonalidados
 syntax on                       "mostrar la sintaxis de archivos
 
-"let g:tokyonight_style = 'night' " available: night, storm
-"let g:tokyonight_enable_italic = 1
-"let g:tokyonight_transparent_background = 1
-
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
+let g:tokyonight_transparent_background = 1
+let g:tokyonight_current_word = 'underline'
+let g:tokyonight_enable_italic = 1
 "let g:material_terminal_italics = 1
 "let g:material_theme_style = 'ocean'
 
-let g:gruvbox_material_background = 'hard' "habilitar el alto contraste
-let g:gruvbox_material_transparent_background = 1 "habilitar el fondo transparente
-let g:gruvbox_material_current_word = 'underline' "resaltar palabras iguales con una linea
-colorscheme gruvbox-material
+colorscheme tokyonight
 "highlight Normal guibg=none "forzar el fondo transparente
