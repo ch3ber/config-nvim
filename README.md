@@ -1,6 +1,8 @@
 # config-nvim
 My personal configuration for nvim
 
+![Vim file edit](pictures/config.png)
+
 ## Instalation
 1. Use `git clone https://github.com/chEber405/config-nvim` into `~/.config/`
 1. Delete his current nvim config `rm -rf nvim`

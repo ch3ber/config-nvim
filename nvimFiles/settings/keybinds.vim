@@ -9,7 +9,15 @@ nmap <TAB> :bnext<CR>
 "ir hacia atras en un buffer con tab
 nmap <S-TAB> :bprevious<CR>
 "eliminar uffer
-nmap <M-d> :bdelete<CR>
+nmap <leader>bd :bdelete<CR>
+
+"===========
+"   tabs
+"===========
+nmap <M-n> :tabnext<CR>
+nmap <M-p> :tabprevious<CR>
+nmap <M-a> :tabnew<CR>
+nmap <M-d> :tabclose<CR>
 
 "====================
 "   resize window
@@ -34,4 +42,4 @@ nmap <leader>rp :!python %<CR>
 "editar init.vim
 nmap <leader>co :edit ~/.config/nvim/init.vim<CR>
 "agregar nuevo buffer
-nmap <leader>n :badd
+nmap <leader>n :badd 
