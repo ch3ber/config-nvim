@@ -32,10 +32,12 @@ let g:lightline = {
       \ },
       \ }
 
-"===    === vim airline ===     ===
-"let g:airline#extensions#tabline#enabled = 1
-"let g:airline#extensions#tabline#left_alt_sep = '|'
-"let g:airline#extensions#tabline#formatter = 'unique_tail'
-""let g:airline_powerline_fonts = 1
 
-"let g:airline_theme= 'tokyonight'
+"=== === vim fugitive === ===
+nnoremap gs :Git status <CR>
+nnoremap ga :Git add . <CR>
+nnoremap gp :Git push <CR>
+nnoremap gc :Git commit -m '
+
+"=== === nerdcommenter === ===
+filetype plugin on
