@@ -40,6 +40,6 @@ nmap <leader>rj :!node %<CR>
 "correr python
 nmap <leader>rp :!python %<CR>
 "editar init.vim
-nmap <leader>co :edit ~/.config/nvim/init.vim<CR>
+nmap <leader>co :edit $MYVIMRC<CR>
 "agregar nuevo buffer
 nmap <leader>n :badd 
