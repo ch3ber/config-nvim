@@ -33,12 +33,10 @@ nnoremap <M-l>    :vertical resize +2<CR>
 "   custom commands
 "======================
 
-" abrir explorador de archivos de vim
-nmap <leader>l :Lex!<CR> :vertical resize -40<CR>
-"correr javascript con node
-nmap <leader>rj :!node %<CR>
-"correr python
-nmap <leader>rp :!python %<CR>
+"abrir explorador de archivos de vim en el archivo actual
+nnoremap <leader>cb :Explore %:p:h<CR>
+"abrir explorador de archivos de vim
+nnoremap <M-e> :Explore<CR>
 "editar init.vim
 nmap <leader>co :edit $MYVIMRC<CR>
 "agregar nuevo buffer
