@@ -1,4 +1,5 @@
 let g:netrw_keepdir = 0         "fix bug move directory with vim Explorer
+set encoding=UTF-8              "codificar por defecto en utf-8
 "set autoindent                  "habilitar autoidentacion
 set clipboard=unnamedplus       "activar el portapapeles
 set cursorcolumn                "colorear la columna dode esta le cursor
@@ -21,18 +22,3 @@ set signcolumn=yes              "habilitar columna izquierda
 "set smartindent                 "habilitar autoidentacion
 set termguicolors               "habilitar colores perzonalidados
 syntax on                       "mostrar la sintaxis de archivos
-
-"let g:tokyonight_style = 'night' " available: night, storm
-"let g:tokyonight_enable_italic = 1
-""let g:tokyonight_transparent_background = 1
-"let g:tokyonight_current_word = 'underline'
-
-"let g:palenight_terminal_italics=1
-
-let g:material_terminal_italics = 1
-let g:material_theme_style = 'ocean'
-
-colorscheme material
-
-"   --- forzar el fondo transparente ---
-"highlight Normal guibg=none

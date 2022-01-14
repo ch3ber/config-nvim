@@ -1,5 +1,19 @@
-source $HOME/.config/nvim/nvimFiles/settings/plugins.vim                          "plugins instalados
-source $HOME/.config/nvim/nvimFiles/settings/general.vim                          "configuracion de nvim general
-source $HOME/.config/nvim/nvimFiles/settings/keybinds.vim                         "keybinds
-source $HOME/.config/nvim/nvimFiles/pluginsSettings/general.vim                   "configuracion general de los plugins
-source $HOME/.config/nvim/nvimFiles/pluginsSettings/cocConfig.vim                 "configuracion de Coc
+"=== LOAD VIM CONFIG ===
+source $HOME/.config/nvim/vimConfig.vim
+
+"=== KEYBINDS ===
+source $HOME/.config/nvim/keybinds.vim
+
+"=== PLUGINS CONFIG ===
+source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/configPlugins/lsp.vim
+source $HOME/.config/nvim/configPlugins/fzf.vim
+source $HOME/.config/nvim/configPlugins/coc.vim
+source $HOME/.config/nvim/configPlugins/emmet.vim
+source $HOME/.config/nvim/configPlugins/lualine.vim
+source $HOME/.config/nvim/configPlugins/nerdtree.vim
+source $HOME/.config/nvim/configPlugins/telescope.vim
+source $HOME/.config/nvim/configPlugins/vimtabline.vim
+source $HOME/.config/nvim/configPlugins/indentline.vim
+source $HOME/.config/nvim/configPlugins/colorsheme.vim
+source $HOME/.config/nvim/configPlugins/nerdcommenter.vim

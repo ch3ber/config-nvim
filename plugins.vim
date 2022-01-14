@@ -1,19 +1,17 @@
-call plug#begin('~/.config/nvim/nvimFiles/plugged')
-Plug 'arcticicestudio/nord-vim'                         "tema de entorno
+call plug#begin('~/.config/nvim/plugged')
+Plug 'neovim/nvim-lspconfig'                            "lenguage server protocol / nvim
 Plug 'drewtempelmeyer/palenight.vim'                    "tema de entorno
 Plug 'ghifarit53/tokyonight-vim'                        "tema de entorno
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }    "tema de entorno
-Plug 'itchyny/lightline.vim'                            "barra de estado
+Plug 'nvim-lualine/lualine.nvim'                        "barra de estado
 Plug 'akinsho/nvim-bufferline.lua'                      "buffer tabline
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     "buscador avanzado de archivos por terminal
 Plug 'junegunn/fzf.vim'                                 "buscador avanzado de archivos por terminal
 Plug 'mattn/emmet-vim'                                  "auto completado de etiquetas para html y css
-Plug 'neoclide/coc.nvim', {'branch': 'release'}         "auto competado para palabras
+Plug 'neoclide/coc.nvim', {'branch': 'release'}         "auto competado para palabras / coc
 Plug 'honza/vim-snippets'                               "soporte para snippets de CoC
 Plug 'sheerun/vim-polyglot'                             "soporte para codigo
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  "resaltado de sintaxis
 Plug 'norcalli/nvim-colorizer.lua'                      "mostrar colores hexadecimales
-Plug 'mg979/vim-visual-multi', {'branch': 'master'}     "multi cursor
 Plug 'tpope/vim-surround'                               "cambiar parentesis correspondientes
 Plug 'preservim/nerdcommenter'                          "comentar codigo
 Plug 'Yggdroot/indentLine'                              "ver identacion de lineas
@@ -22,4 +20,7 @@ Plug 'nvim-lua/plenary.nvim'                            "telescope, multi herram
 Plug 'nvim-telescope/telescope.nvim'                    "telescope, multi herramienta de busqueda
 Plug 'kyazdani42/nvim-web-devicons'                     "iconos para telescope
 Plug 'tpope/vim-fugitive'                               "integracion con git
+Plug 'preservim/nerdtree'                               "file explorer
+Plug 'ryanoasis/vim-devicons'                           "iconos para nerdtree
+Plug 'Xuyuanp/nerdtree-git-plugin'                      "estado de los archivos de git
 call plug#end()
