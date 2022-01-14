@@ -1,10 +1,9 @@
 let g:netrw_keepdir = 0         "fix bug move directory with vim Explorer
-set encoding=UTF-8              "codificar por defecto en utf-8
 "set autoindent                  "habilitar autoidentacion
 set clipboard=unnamedplus       "activar el portapapeles
 set cursorcolumn                "colorear la columna dode esta le cursor
 set cursorline                  "colorear la linea donde esta el cursor
-set encoding=utf-8              "archvos en utf-8
+set encoding=UTF-8              "codificar por defecto en utf-8
 set expandtab                   "identar con espacios y no tabulaciones
 set hidden                      "cambiar entre buffers sin guardar
 set ignorecase                  "ignorar caracteres y mayusculas en la busqueda
