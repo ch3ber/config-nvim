@@ -10,6 +10,8 @@ nmap <TAB> :bnext<CR>
 nmap <S-TAB> :bprevious<CR>
 "eliminar uffer
 nmap <leader>bd :bdelete<CR>
+"agregar nuevo buffer
+nmap <leader>ba :badd 
 
 "===========
 "   tabs
@@ -34,10 +36,8 @@ nnoremap <M-l>    :vertical resize +2<CR>
 "======================
 
 "abrir explorador de archivos de vim en el archivo actual
-nnoremap <leader>cb :Explore %:p:h<CR>
+nnoremap <leader>xx :Explore %:p:h<CR>
 "abrir explorador de archivos de vim
 nnoremap <M-e> :Explore<CR>
 "editar init.vim
 nmap <leader>co :edit $MYVIMRC<CR>
-"agregar nuevo buffer
-nmap <leader>n :badd 
