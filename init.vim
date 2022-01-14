@@ -7,7 +7,6 @@ source $HOME/.config/nvim/keybinds.vim
 "=== PLUGINS CONFIG ===
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/configPlugins/lsp.vim
-source $HOME/.config/nvim/configPlugins/fzf.vim
 source $HOME/.config/nvim/configPlugins/coc.vim
 source $HOME/.config/nvim/configPlugins/emmet.vim
 source $HOME/.config/nvim/configPlugins/lualine.vim
